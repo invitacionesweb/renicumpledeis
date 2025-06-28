@@ -1,7 +1,7 @@
 :root {
-    --color-principal:#fefdfa;
-    --color-secundario:#82b0d3;
-    --color-terciario:#438bbe;
+    --color-principal:#438BBE;
+    --color-secundario:#438BBE;
+    --color-terciario:#fefdfa;
     --font-principal:'Schoolbell', cursive;
     --font-secundaria:'Nunito Sans', sans-serif;
 }
@@ -324,8 +324,8 @@ footer {
     width: 100%;
     height: auto;
     margin: 0;
-    background-color: var(--color-terciario);
-    color: var(--color-principal);
+    background-color: var(--color-principal);
+    color: var(--color-terciario);
     padding: 40px 0;
     text-align: center;
 }
@@ -392,8 +392,9 @@ footer img {
     .segundo {
         background-color: var(--color-terciario);
         background-image: url(./figuras/Group.png);
+        color: var(--color-terciario);
         width: 100%;
-        height: 60vh;
+        height: 90vh;
     }
     .fecha img{
         margin:  0 0 10px 0;
