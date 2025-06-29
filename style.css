@@ -194,9 +194,9 @@ audio::-webkit-media-controls-current-time-display {
     border-radius: 50px;
  }
  .boton2:hover {
-     color: var(--color-terciario);
-     background-color: var(--color-principal);
-     border: 1px solid var(--color-terciario);
+     color: var(--color-principal);
+     background-color: transparent;
+     border: 1px solid var(--color-principal);
      padding: 10px 30PX;
      text-align: center;
      text-decoration: none;
